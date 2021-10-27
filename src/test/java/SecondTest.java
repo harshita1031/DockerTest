@@ -9,7 +9,7 @@ public class SecondTest extends BaseTest{
         driver.get("https://www.facebook.com/");
         Thread.sleep(5000);
         System.out.println("Test2 page title is: "+driver.getTitle());
-        Assert.assertEquals(driver.getTitle(), "Facebook - log in or sign up");
+        Assert.assertEquals(driver.getTitle(), "Facebook – log in or sign up");
         System.out.println("Test 2 Ended!");
     }
 }
